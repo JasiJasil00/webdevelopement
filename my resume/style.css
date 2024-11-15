@@ -1,0 +1,132 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    margin-top: 50px;
+    font-family: "sacramento",cursive;
+    font-size: 5.625rem;
+    color: #66bfbf;
+}
+h2{
+    margin-top: 33.2px;
+    margin-bottom: 33.2px;
+    padding-bottom: 10px;
+    font-family:"Montserrat", sans-serif;
+    color: #66bfbf;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+.intro{
+    background-color: #e4f9f5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.mountain img {
+    width: 100vw;
+}
+
+.cloud1{
+    text-align: right;
+    padding-right: 250px;
+
+}
+.cloud2{
+    text-align: left;
+    padding-left: 250px;
+}
+.pro{
+text-decoration: underline;
+}
+.profile{
+    text-align: center;
+    margin-top: 100px;
+}
+.ios{
+    margin-left: 35%;
+    margin-right: 35%;
+}
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.skills{
+    text-align: center;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+.chilli-img{
+    width: 50%;
+    margin-left: 10px;
+}
+.contact{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.dialog{
+    margin-top: 18.72px;
+    margin-bottom: 18.72px;
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+}
+.love{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.btn{
+    background-color: #11cdd4;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+}
+.footer{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #66bfbf;
+}
+a{
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.jasil{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: white;
+}
+
+@media (min-width: 680px) {
+    .parent {
+        display: grid;
+        grid-template-columns: 1;
+    }
+}
