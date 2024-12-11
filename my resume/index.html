@@ -1,84 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Resume</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body class="body">
-    <div class="container">
-      <div class="intro">
-        <div class="cloud1"><img src="./images/cloud.png" alt="" /></div>
-        <div class="note">
-          <h1>I'm Jasil</h1>
-          <h2 class="program">a <span class="pro">pro</span>grammer.</h2>
-        </div>
-
-        <div class="cloud2"><img src="./images/cloud.png" alt="" /></div>
-        <div class="mountain"><img src="./images/mountain.png" alt="" /></div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="dashboard">
+    <!-- Profile Section -->
+    <div class="profile">
+      <div class="profile-picture">
+        <img src="profile.jpg" alt="Profile Picture">
       </div>
-      <div class="profile">
-        <img class="photo" src="./images/angela.png" alt="" />
-        <h2 class="Hello">Hello</h2>
-        <p class="ios">
-          I am an iOS and Web Developer. I'm the founder and CTO of The App
-          Brewery. I ❤️ coffee and brew my own beers.
-        </p>
-        <hr />
-      </div>
-      <div class="skills">
-        <h2>My Skills</h2>
-        <div class="parent">
-          <div class="cat-typing">
-            <img src="./images/cat-typing.gif" alt="" />
-          </div>
-          <div class="Design">
-            <h3>Design & Development</h3>
-            <p>
-              I started learning to code when I was 12 years old because I
-              wanted to make my own video games. Over time, I have gained a
-              wealth of experience designing and developing mobile and web
-              applications.
-            </p>
-          </div>
-
-          <div class="chilli">
-            <img class="chilli-img" src="./images/chillies.png" alt="" />
-          </div>
-          <div class="hot">
-            <h3>Hot Wings Challenge</h3>
-            <p>
-              But my best skill is actually in eating hot wings. I am the
-              undisputed queen of hot wing challenges. Ghost Peppers and
-              Carolina Reapers are my favourite snacks.
-            </p>
-          </div>
-        </div>
-
-        <hr />
-      </div>
-      <div class="contact">
-        <h2>Get In Touch</h2>
-        <h3 class="dialog">If you love hot wings as much as I do.</h3>
-        <p class="love">
-          Love hot wings as much as I do? Let's talk about how awesome they are!
-          We can code while we eat hot wings!
-        </p>
-        <a class="btn">CONTACT ME</a>
-      </div>
-      <div class="footer">
-        <a href="">linkedin</a>
-        <a href="">twitter</a>
-        <a href="">website</a>
-        <p class="jasil">© Mohammed jasil</p>
+      <div class="profile-details">
+        <p>Report for</p>
+        <h1>Jeremy Robson</h1>
+        <ul>
+          <li>Daily</li>
+          <li>Weekly</li>
+          <li>Monthly</li>
+        </ul>
       </div>
     </div>
-  </body>
+
+    <!-- Cards Section -->
+    <div class="cards">
+      <div class="card work">
+        <div class="icon"></div>
+        <div class="content">
+          <h4>Work</h4>
+          <h1>32hrs</h1>
+          <p>Last Week - 36hrs</p>
+        </div>
+      </div>
+      <div class="card play">
+        <div class="icon"></div>
+        <div class="content">
+          <h4>Play</h4>
+          <h1>10hrs</h1>
+          <p>Last Week - 8hrs</p>
+        </div>
+      </div>
+      <div class="card study">
+        <div class="icon">
+          <img src="./images/cloud.png" alt="">
+        </div>
+        <div class="content">
+          <h4>Study</h4>
+          <h1>4hrs</h1>
+          <p>Last Week - 7hrs</p>
+        </div>
+      </div>
+      <!-- Add more cards here as needed -->
+    </div>
+  </div>
+</body>
 </html>
